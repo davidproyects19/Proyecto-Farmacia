@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "ResultadoPagarCarrito";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 text-center">
+            <h1 class="display-4">¡Gracias por tu compra!</h1>
+            <p class="lead">Has completado tu pago con éxito.</p>
+            <p>Detalles de la compra:</p>
+            <p>Cliente: <strong>@TempData["cliente"]</strong></p>
+            <p>Mensaje: <em>@TempData["mensaje"]</em></p>
+            <hr>
+            <a asp-action="IndexProductos" class="btn btn-primary">Realizar otra compra</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<PrjFarmacia_David.Models.Cliente>
+
+@{
+    ViewData["Title"] = "Clientes por Nombre";
+}
+
+<h1>Clientes por Nombre</h1>
+
+@using (Html.BeginForm())
+{
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Ingrese inicial de Cliente" name="letraNom">
+        <button class="btn btn-success" type="submit">Consultar</button>
+    </div>
+}
+
+<p>
+    <a asp-action="IndexClientes" class="btn btn-primary">Volver</a>
+</p>
+
+<div class="table-responsive">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Dirección</th>
+                <th>Teléfono</th>
+                <th>Eliminar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Nombre</td>
+                    <td>@item.Direccion</td>
+                    <td>@item.Telefono</td>
+                    <td>@item.EliCli</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

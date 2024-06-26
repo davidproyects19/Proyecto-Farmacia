@@ -1,0 +1,65 @@
+﻿@model PrjFarmacia_David.Models.Producto
+
+@{
+    ViewData["Title"] = "Agregar Producto al Carrito";
+}
+
+<div class="container">
+    <h1 class="display-4">Agregar Producto al Carrito</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <h4>Detalles del Producto</h4>
+            <hr />
+            <dl class="row">
+                <dt class="col-sm-3">ID:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Id)</dd>
+
+                <dt class="col-sm-3">Nombre:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Nombre)</dd>
+
+                <dt class="col-sm-3">Descripción:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Descripcion)</dd>
+
+                <dt class="col-sm-3">Precio:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Precio)</dd>
+
+                <dt class="col-sm-3">Cantidad:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.Cantidad)</dd>
+
+                <dt class="col-sm-3">Estado:</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.EliPro)</dd>
+            </dl>
+        </div>
+
+        <div class="col-md-6">
+            <h4>Imagen del Producto</h4>
+            <hr />
+            <img src="@Url.Content("/productos/" + Model.Id + ".jpeg")" alt="@Model.Id" class="img-fluid" />
+        </div>
+    </div>
+
+    <hr />
+
+    <div class="row">
+        <div class="col-md-12">
+            @using (Html.BeginForm())
+            {
+                <div class="form-group">
+                    @Html.Hidden("id", Model.Id)
+                    <label for="cant">Cantidad a Comprar:</label>
+                    @Html.TextBox("cant", "1", new { @class = "form-control", type = "number", min = "1", required = "required" })
+                </div>
+                <br />
+                <button type="submit" class="btn btn-primary">Agregar al Carrito</button>
+                <a asp-action="VerCarritoCompra" class="btn btn-success">Ver Carrito</a>
+                <a asp-action="IndexProductos" class="btn btn-warning">Seguir Comprando</a>
+            }
+        </div>
+    </div>
+
+    <br />
+    <div class="alert alert-info" role="alert">
+        <strong>@ViewBag.mensaje</strong> 
+    </div>
+</div>

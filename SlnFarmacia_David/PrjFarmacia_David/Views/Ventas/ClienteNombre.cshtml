@@ -1,0 +1,67 @@
+﻿@model IEnumerable<PrjFarmacia_David.Models.ReporteVentasPorCliente>
+
+@{
+    ViewData["Title"] = "ClienteNombre";
+}
+
+<h1 class="display-4">Cliente Nombre</h1>
+
+<form asp-action="ClienteNombre" method="get" class="mb-4">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="cliente">Seleccione Cliente:</label>
+                <select name="Id" id="cliente" class="form-select">
+                    <option value="">Seleccione</option>
+                    @foreach (var cliente in ViewBag.nombreCliente)
+                    {
+                        <option value="@cliente.Value">@cliente.Text</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <button type="submit" class="btn btn-primary">Consultar</button>
+        </div>
+    </div>
+</form>
+
+@if (Model != null && Model.Any())
+{
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(model => model.NombreCliente)</th>
+                    <th>@Html.DisplayNameFor(model => model.NumVenta)</th>
+                    <th>@Html.DisplayNameFor(model => model.FechaVenta)</th>
+                    <th>@Html.DisplayNameFor(model => model.NombreProducto)</th>
+                    <th>@Html.DisplayNameFor(model => model.Cantidad)</th>
+                    <th>@Html.DisplayNameFor(model => model.Precio)</th>
+                    <th>@Html.DisplayNameFor(model => model.TotalVenta)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(modelItem => item.NombreCliente)</td>
+                        <td>@Html.DisplayFor(modelItem => item.NumVenta)</td>
+                        <td>@Html.DisplayFor(modelItem => item.FechaVenta)</td>
+                        <td>@Html.DisplayFor(modelItem => item.NombreProducto)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Cantidad)</td>
+                        <td>@Html.DisplayFor(modelItem => item.Precio)</td>
+                        <td>@Html.DisplayFor(modelItem => item.TotalVenta)</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+else
+{
+    <div class="alert alert-info">No hay ventas para mostrar.</div>
+}
+<div class="mt-4">
+    <a asp-action="IndexVentas" class="btn btn-secondary">Volver a Reporte Ventas</a>
+</div>

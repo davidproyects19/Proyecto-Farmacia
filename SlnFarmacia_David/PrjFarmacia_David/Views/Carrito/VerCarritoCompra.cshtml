@@ -1,0 +1,53 @@
+﻿@model IEnumerable<PrjFarmacia_David.Models.Carrito>
+
+@{
+    ViewData["Title"] = "Ver Carrito de Compra";
+}
+
+<h1 class="display-4">Ver Carrito de Compra</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <a asp-action="IndexProductos" class="btn btn-warning">Seguir Comprando</a> |
+            <a asp-action="PagarCarrito" class="btn btn-info">Pagar Carrito</a>
+        </div>
+    </div>
+    <br />
+    <table class="table table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Codigo)</th>
+                <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+                <th>@Html.DisplayNameFor(model => model.Precio)</th>
+                <th>@Html.DisplayNameFor(model => model.Cantidad)</th>
+                <th>@Html.DisplayNameFor(model => model.Importe)</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Codigo)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Precio)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Cantidad)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Importe)</td>
+                    <td>
+                        <form asp-action="EliminarArticuloCarrito" asp-route-id="@item.Codigo" method="post">
+                            @Html.Hidden("id2", item.Codigo)
+                            <a asp-action="AgregarProductoCarrito" asp-route-id="@item.Codigo" class="btn btn-outline-success text-center">Modificar</a> |
+                            <input type="submit" class="btn btn-outline-danger text-center" value="Eliminar" onclick="return confirm('¿Estás seguro de eliminar el artículo?')" />
+                               
+                        </form>
+                    </td>
+                </tr>
+            }
+            <tr>
+                <td colspan="4"><strong>Total a Pagar:</strong></td>
+                <td><strong>@ViewBag.suma_importes</strong></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

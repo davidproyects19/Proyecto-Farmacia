@@ -1,0 +1,41 @@
+﻿@model PrjFarmacia_David.Models.Cliente
+
+@{
+    ViewData["Title"] = "DetailsCliente";
+}
+
+<h1 class="mb-4">Detalles del Cliente</h1>
+
+<div>
+    <h4>Cliente</h4>
+    <hr />
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>ID</th>
+                <td>@Html.DisplayFor(model => model.Id)</td>
+            </tr>
+            <tr>
+                <th>Nombre</th>
+                <td>@Html.DisplayFor(model => model.Nombre)</td>
+            </tr>
+            <tr>
+                <th>Dirección</th>
+                <td>@Html.DisplayFor(model => model.Direccion)</td>
+            </tr>
+            <tr>
+                <th>Teléfono</th>
+                <td>@Html.DisplayFor(model => model.Telefono)</td>
+            </tr>
+            <tr>
+                <th>EliCli</th>
+                <td>@Html.DisplayFor(model => model.EliCli)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div> 
+    <a class="btn btn-sm btn-info" href="@Url.Action("EditCliente", new { id = Model.Id })">Editar</a>
+    <a asp-action="IndexClientes" class="btn btn-warning">Volver</a>
+</div>

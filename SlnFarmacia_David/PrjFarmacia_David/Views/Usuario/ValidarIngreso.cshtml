@@ -1,0 +1,34 @@
+﻿@{
+    Layout = "_LayoutLogin";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-lg">
+                <div class="card-header bg-primary text-white text-center">
+                    <h4><i class="bi bi-person-circle"></i> Iniciar Sesión</h4>
+                </div>
+                <div class="card-body">
+                    @if (!string.IsNullOrEmpty(ViewBag.mensaje))
+                    {
+                        <div class="alert alert-dark" role="alert">
+                            @ViewBag.mensaje
+                        </div>
+                    }
+                    <form asp-action="ValidarIngreso" method="post">
+                        <div class="mb-3">
+                            <label for="login_usu" class="form-label">Usuario</label>
+                            <input type="text" class="form-control" id="login_usu" name="login_usu" placeholder="Ingrese su usuario">
+                        </div>
+                        <div class="mb-3">
+                            <label for="clave_usu" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="clave_usu" name="clave_usu" placeholder="Ingrese su contraseña">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Iniciar Sesión</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

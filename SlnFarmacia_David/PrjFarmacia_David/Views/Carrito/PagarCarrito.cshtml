@@ -1,0 +1,67 @@
+﻿@model IEnumerable<PrjFarmacia_David.Models.Carrito>
+
+@{
+    ViewData["Title"] = "Pagar Carrito";
+}
+
+<h1 class="display-4">Pagar Carrito</h1>
+
+<div class="container">
+    <form asp-action="PagarCarrito" method="post">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <label for="fecha">Fecha:</label>
+                    <strong>@DateTime.Today.ToShortDateString()</strong>
+                </div>
+                <div class="mb-3">
+                    <label for="cliente">Cliente:</label>
+                    <select name="codigo" asp-items="@ViewBag.clientes" class="form-select">
+                        <option>Seleccione</option>
+                    </select>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-primary">Pagar</button>
+                    <a asp-action="IndexProductos" class="btn btn-warning">Seguir Comprando</a>
+                    <a asp-action="VerCarritoCompra" class="btn btn-success">Modificar Carrito</a>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <hr />
+
+    <table class="table table-striped">
+        <thead class="table-primary">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Codigo)</th>
+                <th>@Html.DisplayNameFor(model => model.Nombre)</th>
+                <th>@Html.DisplayNameFor(model => model.Precio)</th>
+                <th>@Html.DisplayNameFor(model => model.Cantidad)</th>
+                <th>@Html.DisplayNameFor(model => model.Importe)</th>
+                <th>Imagen</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Codigo)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Precio)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Cantidad)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Importe)</td>
+                    <td>
+                        <img src="@Url.Content("/productos/" + item.Codigo + ".jpeg")"
+                             alt="@item.Codigo"
+                             style="width:100px;height:100px" />
+                    </td>
+                </tr>
+            }
+            <tr>
+                <td colspan="4"><strong>Total a Pagar:</strong></td>
+                <td><strong>@ViewBag.suma_importes</strong></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,32 @@
+﻿@model PrjFarmacia_David.Models.Producto
+
+@{
+    ViewData["Title"] = "DeleteProducto";
+}
+
+<h1 class="mb-4">Eliminar Producto</h1>
+
+<h3>¿Estás seguro de que quieres eliminar este producto?</h3>
+<div>
+    <h4>Detalles del Producto</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">ID:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Id)</dd>
+        <dt class="col-sm-2">Nombre:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Nombre)</dd>
+        <dt class="col-sm-2">Descripción:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Descripcion)</dd>
+        <dt class="col-sm-2">Precio:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Precio)</dd>
+        <dt class="col-sm-2">Cantidad:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.Cantidad)</dd>
+        <dt class="col-sm-2">EliPro:</dt>
+        <dd class="col-sm-10">@Html.DisplayFor(model => model.EliPro)</dd>
+    </dl>
+
+    <form asp-action="DeleteProducto" method="post">
+        <button type="submit" class="btn btn-danger">Eliminar</button> |
+        <a asp-action="IndexProductos" class="btn btn-warning">Regresar</a>
+    </form>
+</div>

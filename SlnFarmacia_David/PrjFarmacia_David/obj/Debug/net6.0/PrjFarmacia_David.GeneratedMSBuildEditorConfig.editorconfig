@@ -1,0 +1,129 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PrjFarmacia_David
+build_property.RootNamespace = PrjFarmacia_David
+build_property.ProjectDir = C:\Users\User\Documents\5_CICLO\MODULO_1\DESARROLLO DE SERVICIO WEB I\PROYECTO\SlnFarmacia_David\PrjFarmacia_David\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\User\Documents\5_CICLO\MODULO_1\DESARROLLO DE SERVICIO WEB I\PROYECTO\SlnFarmacia_David\PrjFarmacia_David
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Carrito/AgregarProductoCarrito.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xBZ3JlZ2FyUHJvZHVjdG9DYXJyaXRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Carrito/IndexProductos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xJbmRleFByb2R1Y3Rvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Carrito/PagarCarrito.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xQYWdhckNhcnJpdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Carrito/ResultadoPagarCarrito.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xSZXN1bHRhZG9QYWdhckNhcnJpdG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Carrito/VerCarritoCompra.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xWZXJDYXJyaXRvQ29tcHJhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Clientes/ClientesxNombre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ2xpZW50ZXN4Tm9tYnJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Clientes/CreateCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlQ2xpZW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Clientes/DeleteCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlQ2xpZW50ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Clientes/DetailsCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlsc0NsaWVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Clientes/EditCliente.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdENsaWVudGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Clientes/IndexClientes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXhDbGllbnRlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Productos/CreateProducto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXENyZWF0ZVByb2R1Y3RvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Productos/DeleteProducto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXERlbGV0ZVByb2R1Y3RvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Productos/DetailsProducto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXERldGFpbHNQcm9kdWN0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Productos/EditProducto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEVkaXRQcm9kdWN0by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Productos/IndexProductos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEluZGV4UHJvZHVjdG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Productos/ProductosXNombre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXFByb2R1Y3Rvc1hOb21icmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Shared/_LayoutLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Usuario/ValidarIngreso.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xWYWxpZGFySW5ncmVzby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Ventas/ClienteNombre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFzXENsaWVudGVOb21icmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Ventas/IndexVentas.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVudGFzXEluZGV4VmVudGFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/User/Documents/5_CICLO/MODULO_1/DESARROLLO DE SERVICIO WEB I/PROYECTO/SlnFarmacia_David/PrjFarmacia_David/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ydragdtxxv
